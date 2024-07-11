@@ -20,8 +20,8 @@ This project implements an automated attendance system using facial recognition 
 ## Installation
 
 1. Clone this repository: git clone https://github.com/yourusername/facial-recognition-attendance.git
-3. Install the required packages: pip install opencv-python numpy face_recognition
-4. 3. Make a folder named "imageAttendance" and drop the photos of subjects in it, making sure they're in jpg format.
+2. Install the required packages 
+3. Make a folder named "imageAttendance" and drop the photos of subjects in it, making sure they're in jpg format.
 
 ## Usage
 
@@ -29,7 +29,7 @@ This project implements an automated attendance system using facial recognition 
 
 2. Run the script: python AttendanceProject.py
 
-3. 3. The webcam will activate and start recognizing faces. Recognized individuals will have their names displayed on the video feed.
+3. The webcam will activate and start recognizing faces. Recognized individuals will have their names displayed on the video feed.
 
 4. Attendance is automatically logged in `Attendance.csv` with the name and timestamp of each recognized individual.
 
